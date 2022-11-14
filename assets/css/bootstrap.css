@@ -4845,9 +4845,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 
-.navbar-inverse .navbar-toggle {
-  border-color: #333333;
-}
 
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
@@ -6614,6 +6611,12 @@ td.visible-xs {
   th.visible-xs,
   td.visible-xs {
     display: table-cell !important;
+  }
+  #scroll_up{
+    display: none;
+  }
+  .itc-slider__btn{
+    display: none;
   }
 }
 
