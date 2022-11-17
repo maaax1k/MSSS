@@ -340,7 +340,11 @@ hr {
 }
 
 .dispb {
-	display: block;
+	display: grid;
+	align-items: center;
+}
+.footlogo{
+	width: 50%;
 }
 
 #scroll_up {
@@ -422,10 +426,16 @@ th {
 }
 
 @media (max-width: 767px) {
+	.footlogo{
+		width: 30%;
+	}
 	.notfixed {
 		padding-bottom: 0px;
 		padding-top: 0px;
 		transition: 0.3s;
+	}
+	.nav a{
+		text-align: center;
 	}
 
 	.fixed {
@@ -450,7 +460,7 @@ th {
 	}
 
 	.ww,
-	.slide1 {
+	.itc-slider__item {
 		display: flex;
 		justify-content: center;
 		align-items: center;
