@@ -55,6 +55,7 @@ h1 {
 	padding-top: 0px;
 	z-index: 1;
 	transition: 1s;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
 }
 
 .notfixed {
@@ -442,9 +443,6 @@ th {
 	}
 	.nav a{
 		text-align: center;
-	}
-	.fixed {
-		box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 	}
 
 	.itc-slider {
