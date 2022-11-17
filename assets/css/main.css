@@ -390,5 +390,20 @@ a:after {
 	.itc-slider{
 		padding-top: 120px;
 	}
+	.col-lg-8 h1{
+		font-size: 150%;
+	}
+	.col-lg-8 p{
+		font-size: 85%;
+		line-height: 1.2;
+	}
+	.bounce{
+		width: 200px;
+	}
+	.ww, .slide1{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
   }
   
