@@ -430,6 +430,16 @@ th {
 }
 
 @media (max-width: 767px) {
+	.box-zoom{
+		height: 300px;
+	}
+	.mt{
+		margin: 0px;
+	}
+	.zoom{
+		width: 150px;
+		height: 150px;
+	}
 	.footlogo{
 		width: 30%;
 	}
@@ -459,7 +469,8 @@ th {
 	}
 
 	.bounce {
-		width: 200px;
+		width: 150px;
+		height: 100%;
 	}
 
 	.ww,
@@ -489,5 +500,11 @@ th {
 		display: flex;
 		align-items: center;
 		justify-content: center;
+	}
+}
+@media (min-width: 600px) and (max-width: 767px){
+	.pt{
+		display: flex;
+		flex-direction: row;
 	}
 }
