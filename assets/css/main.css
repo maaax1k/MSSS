@@ -464,7 +464,7 @@ th {
 	}
 
 	.col-lg-8 p {
-		font-size: 85%;
+		font-size: 90%;
 		line-height: 1.2;
 	}
 
@@ -500,6 +500,9 @@ th {
 		display: flex;
 		align-items: center;
 		justify-content: center;
+	}
+	.col-lg-4 h4, .col-lg-4 p, .col-lg-4 a{
+		font-size: 90%;
 	}
 }
 @media (min-width: 600px) and (max-width: 767px){
