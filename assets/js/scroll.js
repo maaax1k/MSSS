@@ -1,5 +1,5 @@
 $(window).scroll(function(){
-  if ($(this).scrollTop() >= 1) {
+  if ($(this).scrollTop() >= 10) {
     $('#scroll_fixed').removeClass('notfixed');
     $('#scroll_fixed').addClass("fixed");
     $('#scroll_up').removeClass("dispn");

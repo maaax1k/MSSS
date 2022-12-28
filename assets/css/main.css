@@ -159,22 +159,33 @@ hr {
 	letter-spacing: 4px;
 	margin-left: 20px;
 }
+.navbar-header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+}
 
-.navbar-xrand {
+sup {
 	font-weight: 500;
 	font-size: 25px;
 	letter-spacing: 1px;
 	padding: 0px;
+	color: #9a75ff;
+	margin-bottom: 10%;
 }
 
-.navbar-xrand:hover {
+sup:hover{
 	color: white;
+	transition: 0.2s;
 }
 
 .main_logo {
 	font-size: 20px
 }
-
+.logotip{
+	height: 100%;
+}
 .navbar-inverse .navbar-brand {
 	color: white;
 }
@@ -436,7 +447,12 @@ th {
 .price h1{
 	margin-top: 250px;
 }
-
+.bl{
+	display: flex;
+	height: 100px;
+	text-align: center;
+	align-items: center;
+}
 @media (max-width: 767px) {
 	.box-zoom{
 		height: 200px;
@@ -465,6 +481,12 @@ th {
 		padding-bottom: 0px;
 		padding-top: 0px;
 		transition: 0.3s;
+	}
+	.navbar-brand{
+		font-size: 30px;
+	}
+	sup{
+		font-size: 19px;
 	}
 	.nav a{
 		text-align: center;
