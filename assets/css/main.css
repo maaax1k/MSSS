@@ -67,7 +67,13 @@ h1 {
 	z-index: 1;
 	transition: 1s;
 }
-
+.sp_more{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+}
 
 .chelik {
 	position: fixed;
@@ -431,14 +437,21 @@ th {
 
 @media (max-width: 767px) {
 	.box-zoom{
-		height: 300px;
+		height: 200px;
+		flex-direction: row;
+		padding-left: 20px;
+		padding-right: 20px;
+		border-radius: 0px;
+	}
+	.sp_more{
+		width: 200px;
 	}
 	.mt{
 		margin: 0px;
 	}
 	.zoom{
-		width: 150px;
-		height: 150px;
+		width: 120px;
+		height: 120px;
 	}
 	.footlogo{
 		width: 30%;
@@ -504,10 +517,16 @@ th {
 	.col-lg-4 h4, .col-lg-4 p, .col-lg-4 a{
 		font-size: 90%;
 	}
+	body{
+		overflow-x: hidden;
+	}
 }
-@media (min-width: 600px) and (max-width: 767px){
+@media (min-width: 600px) and (max-width: 991px){
 	.pt{
 		display: flex;
 		flex-direction: row;
+	}
+	.mt{
+		width: 50%;
 	}
 }
