@@ -193,7 +193,9 @@ sup:hover{
 .navbar-inverse .navbar-inverse .navbar-toggle {
 	border-color: transparent;
 }
-
+.navbar-toggle{
+	margin-right: 15px;
+}
 .progress-bar-theme {
 	background-color: #1abc9c;
 }
@@ -208,9 +210,18 @@ sup:hover{
 
 .pt {
 	padding-top: 50px;
-	padding-bottom: 50px;
 	justify-content: center;
 	align-items: center;
+}
+.req{
+	font-weight: bold;
+	color: black;
+	margin: 10px;
+	padding: 10px 20px 10px 20px;
+	font-size: 14px;
+	border-radius: 30px;
+	border: 1px solid black;
+	transition: 0.5;
 }
 
 
@@ -552,5 +563,17 @@ th {
 	}
 	.mt{
 		width: 50%;
+	}
+}
+@media(min-width: 768px){
+	.head_req{
+		padding: 10px 20px 10px 20px;
+		font-size: 14px;
+		border-radius: 30px;
+		border: 1px solid white;
+		padding-top: 10px !important;
+		padding-bottom: 10px !important;
+		margin: 14px 15px 14px 15px !important;
+		font-weight: 600;
 	}
 }
