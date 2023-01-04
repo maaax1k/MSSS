@@ -299,8 +299,9 @@ sup:hover{
 	align-items: center;
 	justify-content: center;
 }
-
-
+.pometka{
+	color: red;
+}
 .zoomOverlay {
 	position: absolute;
 	top: 0;
@@ -575,5 +576,16 @@ th {
 		padding-bottom: 10px !important;
 		margin: 14px 15px 14px 15px !important;
 		font-weight: 600;
+	}
+}
+@media (min-width: 992px) and (max-width:1199px){
+	.img-responsive{
+		width: 40%;
+	}
+	.box-zoom{
+		height: 400px;
+	}
+	.zoom{
+		height: 400px;
 	}
 }
